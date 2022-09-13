@@ -19,31 +19,31 @@
 }
 
 #dashboard{
-    width: 75vw;
-    height: 15vh;
+    width: 80vw;
+    height: 11vh;
     background-color: yellow;
 }
 aside{
     display: flex;
-    width: 25vw;
-    height: 75vh;
+    width: 20vw;
+    height: 67vh;
     background-color: blueviolet;
 }
 header{
     display: flex;
-    width: 25vw;
-    height: 25vh;
+    width: 20vw;
+    height: 33vh;
     background-color: blue;
 }
 footer{
     display: flex;
-    width: 75vw;
-    height: 15vh;
+    width: 80vw;
+    height: 11vh;
     background-color: red;
 }
 main{
     display: flex;
-    width: 75vw;
-    height: 70vh;
+    width: 80vw;
+    height: 78vh;
     background-color: green;
 }

@@ -6,21 +6,27 @@
     padding: 0px;
 
 }
-
 #main{
     display: flex;
-    flex-wrap: wrap;
+}
+#left{
+    display: flex;
+    flex-flow: wrap column;
+}
+#right{
+    display: flex;
+    flex-flow: wrap column;
 }
 
 #dashboard{
-    width: 73.5vw;
+    width: 75vw;
     height: 15vh;
     background-color: yellow;
 }
 aside{
     display: flex;
     width: 25vw;
-    height: 74vh;
+    height: 75vh;
     background-color: blueviolet;
 }
 header{
@@ -31,13 +37,13 @@ header{
 }
 footer{
     display: flex;
-    width: 33vw;
-    height: 33vh;
+    width: 75vw;
+    height: 15vh;
     background-color: red;
 }
 main{
     display: flex;
-    width: 33vw;
-    height: 33vh;
+    width: 75vw;
+    height: 70vh;
     background-color: green;
 }

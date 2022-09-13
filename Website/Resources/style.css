@@ -1,0 +1,43 @@
+*{
+    background-color: black;
+    color: white;
+    border: 0px;
+    margin: 0px;
+    padding: 0px;
+
+}
+
+#main{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#dashboard{
+    width: 73.5vw;
+    height: 15vh;
+    background-color: yellow;
+}
+aside{
+    display: flex;
+    width: 25vw;
+    height: 74vh;
+    background-color: blueviolet;
+}
+header{
+    display: flex;
+    width: 25vw;
+    height: 25vh;
+    background-color: blue;
+}
+footer{
+    display: flex;
+    width: 33vw;
+    height: 33vh;
+    background-color: red;
+}
+main{
+    display: flex;
+    width: 33vw;
+    height: 33vh;
+    background-color: green;
+}
